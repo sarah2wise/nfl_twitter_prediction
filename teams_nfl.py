@@ -1,0 +1,40 @@
+# function that retrieves team hashtags
+def getTeamHashtags(team):
+    return team_dict[team]
+
+# team hashtags
+team_dict = {
+'ARI' : '#cardinals OR #arizonacardinals OR #azcardinals OR #gocards OR #gocardsgo OR #letsgocards OR #gocardinals OR #gocardinalsgo OR #letsgocardinals OR #cardinalnation OR #cardinalsnation OR #redsea OR #birdcityfootball'
+,'ATL' : '#falcons OR #atlantafalcons OR #gofalcons OR #letsgofalcons OR #gofalconsgo OR #dirtybird OR #dirtybirds OR #falconnation OR #falconsnation OR #riseupatl'
+,'BAL' : '#ravens OR #baltimoreravens OR #teamravens OR #letsgoravens OR #goravens OR #goravensgo OR #ravennation OR #ravensnation OR #ravensflock'
+,'BUF' : '#bills OR #buffalobills OR #billsmafia OR #gobills OR #gobillsgo OR #letsgobills OR #billnation OR #billsnation'
+,'CAR' : '#panthers OR #carolinapanthers OR #gopanthers OR #gopanthersgo OR #letsgopanthers OR #panthernation OR #panthersnation OR #keeppounding'
+,'CHI' : '#bears OR #chicagobears OR #dabears OR #gobears OR #gobearsgo OR #letsgobears OR #bearsnation OR #bearnation OR #beardown OR #bearsfam OR #dabears'
+,'CIN' : '#bengals OR #cincinnatibengals OR #gobengals OR #gobengalsgo OR #letsgobengals OR #bengalnation OR #bengalsnation OR #whodey OR #whodeynation OR #seizethedey OR #rulethejungle'
+,'CLE' : '#browns OR #clevelandbrowns OR #gobrowns OR #gobrownsgo OR #letsgobrowns OR #brownnation OR #brownsnation'
+,'DAL' : '#cowboys OR #dallascowboys OR #gocowboys OR #gocowboysgo OR #letsgocowboys OR #cowboynation OR #cowboysnation'
+,'DEN' : '#broncos OR #denverbroncos OR #gobroncos OR #gobroncosgo OR #letsgobroncos OR #broncosnation OR #bronconation OR #broncoscountry'
+,'DET' : '#lions OR #detroitlions OR #golions OR #golionsgo OR #letsgolions OR #lionnation OR #lionsnation OR #lionup OR #onepride'
+,'GB' : '#packers OR #greenbaypackers OR #gbpackers OR #gopackers OR #gopackersgo OR #letsgopackers OR #gopack OR #gopackgo OR #packernation OR #packersnation'
+,'HOU' : '#texans OR #houstontexans OR #gotexans OR #gotexansgo OR #letsgotexans OR #texannation OR #texansnation'
+,'IND' : '#colts OR #indianapoliscolts OR #gocolts OR #gocoltsgo OR #letsgocolts OR #coltnation OR #coltsnation OR #coltstrong OR #fortheshoe'
+,'JAX' : '#jaguars OR #jacksonvillejaguars OR #jags OR #jacksonvillejags OR #gojaguars OR #gojaguarsgo OR #letsgojaguars OR #gojags OR #gojagsgo OR #letsgojags OR #jaguarnation OR #jaguarsnation OR #jagnation OR #jagsnation OR #duuuval'
+,'KC' : '#chiefs OR #kansascitychiefs OR #kcchiefs OR #gochiefs OR #gochiefsgo OR #letsgochiefs OR #arrowheadnation OR #chiefnation OR #chiefsnation OR #chiefskingdom'
+,'MIA' : '#dolphins OR #miamidolphins OR #phins OR #godolphins OR #godolphinsgo OR #letsgodolphins OR #gophins OR #gophinsgo OR #letsgophins OR #phinnation OR #phinsnation OR #dolphinnation OR #dolphinsnation OR #finsup'
+,'MIN' : '#vikings OR #minnesotavikings OR #govikings OR #govikingsgo OR #letsgovikings OR #vikingnation OR #vikingsnation OR #skol'
+,'NE' : '#patriots OR #newenglandpatriots OR #pats OR #nepats OR #nepatriots OR #gopats OR #letsgopats OR #gopatsgo OR #gopatriots OR #letsgopatriots OR #gopatriotsgo OR #patriotnation OR #patriotsnation OR #patsnation OR #foreverne'
+,'NO' : '#saints OR #neworleanssaints OR #nosaints OR #gosaints OR #gosaintsgo OR #letsgosaints OR #saintnation OR #saintsnation'
+,'NYG' : '#giants OR #newyorkgiants OR #newyorkfootballgiants OR #nygiants OR #nyg OR #nygmen OR #gmen OR #gogiants OR #gonygiants OR #gogiantsgo OR #letsgogiants OR #giantsnation OR #giantnation OR #togetherblue'
+,'NYJ' : '#jets OR #newyorkjets OR #jetlife OR #nyjets OR #jetsjetsjets OR #gojets OR #gojetsgo OR #letsgojets OR #jetnation OR #jetsnation OR #takeflight'
+,'LV' : '#raidernation OR #raiders #lasvegasraiders OR #lvraiders OR #silverandblack #goraiders #goraidersgo #letsgoraiders #raidernation #raidersnation'
+,'PHI' : '#eagles OR #philadelphiaeagles OR #flyeaglesfly OR #iggles OR #goeagles OR #goeaglesgo OR #letsgoeagles OR #eaglenation OR #eaglesnation'
+,'PIT' : '#steelers OR #pittsburghsteelers OR #stillers OR #gosteelers OR #gosteelersgo OR #letsgosteelers OR #gostillers OR #gostillersgo OR #letsgostillers OR #stillernation OR #stillersnation OR #steelernation OR #steelersnation'
+,'LAC' : '#boltup OR #chargers OR #losangeleschargers OR #lachargers OR #gochargers OR #letsgochargers OR #gochargersgo OR #chargernation OR #chargersnation'
+,'SEA' : '#seahawks OR #seattleseahawks OR #goseahawks OR #letsgoseahawks OR #goseahawksgo OR #seahawknation OR #seahawksnation'
+,'SF' : '#49ers OR #sanfrancisco49ers OR #sf49ers OR #niners OR #sfniners OR #goniners OR #goninersgo OR #letsgoniners OR #go49ers OR #go49ersgo OR #letsgo49ers OR #49ernation OR #49ersnation OR #ninernation OR #ninersnation OR #fttb'
+,'LA' : '#rams OR #losangelesrams OR #larams OR #gorams OR #goramsgo OR #letsgorams OR #ramsnation OR #ramnation OR #ramshouse'
+,'TB' : '#buccaneers OR #tampabaybuccaneers OR #bucs OR #tampabaybucs OR #tbbuccaneers OR #tbbucs OR #gobucsgo OR #gobucs OR #letsgobucs OR #gobuccaneers OR #letsgobuccaneers OR #bucnation OR #bucsnation'
+,'TEN' : '#titans OR #tennesseetitans OR #gotitans OR #letsgotitans OR #gotitansgo OR #titansnation OR #titannation'
+,'WAS21' : '#footballteam OR #washingtonfootballteam OR #WFT OR #gofootballteam OR #washingtonfootball OR #HTTWFT OR #WFT OR #WFTPride OR #DCFootball OR #WashingtonTeam OR #TeamWashington OR #HTTFT OR #WFTeam OR #WashingtonFootball OR #WASFootball OR #WashingtonFT OR #WFTPride OR #WFTeam'
+,'WAS22' : '#commanders OR #washingtoncommanders OR #dccommanders OR #gocommanders OR #letsgocommanders OR #gocommandersgo OR #commandersnation OR #httc'
+}
